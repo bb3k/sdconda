@@ -8,5 +8,5 @@ wget https://civitai.com/api/download/models/57618 -o CounterfeitV30_v30.safeten
 cd ..
 cd VAE
 wget https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/vae/kl-f8-anime2.ckpt
-cd ..
+cd ../..
 python launch.py --xformers --share  --no-half --no-half-vae
